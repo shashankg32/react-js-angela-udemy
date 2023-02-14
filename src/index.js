@@ -4,6 +4,10 @@ import ReactDOM from "react-dom";
 ReactDOM.render(
   <div>
     <h1>hello world</h1>
-    <p>this is a pragraph</p>
-  </div>, document.getElementById("root")
-  );
+    <ul>
+      <li>this is a pragraph 1</li>
+      <li>this is a pragraph 2</li>
+    </ul>
+  </div>,
+  document.getElementById("root")
+);
